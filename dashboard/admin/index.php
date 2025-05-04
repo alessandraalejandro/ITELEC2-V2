@@ -3,7 +3,7 @@
 require_once 'authentication/admin-class.php';
 
 $admin = new ADMIN();
-if(!$admin->isUserLoggedIn()){
+if (!$admin->isUserLoggedIn()) {
 
     $admin->redirect('../../');
 }

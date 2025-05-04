@@ -14,7 +14,7 @@ class Database{
         if($_SERVER['SERVER_NAME'] === "localhost" || $_SERVER['SERVER_ADDR'] === "127.0.0.1" || $_SERVER['SERVER_ADDR'] === '192.168.1.72'){
             
             $this->host = 'localhost';
-            $this->db_name = 'itelec2-try'; // itelec2
+            $this->db_name = 'itelec2';
             $this->port = '3307'; // 3307 for laptop, 3308 for pc in comlab2
             $this->username = 'root';
             $this->password = '';
