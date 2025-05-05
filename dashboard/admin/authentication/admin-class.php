@@ -336,16 +336,10 @@ class ADMIN
         $mail->addAddress($email);
         $mail->Username = $smtp_email;
         $mail->Password = $smtp_password;
-        $mail->setFrom($smtp_email, "Alessandra"); // name of the reciever
+        $mail->setFrom($smtp_email, "Alessandra");
         $mail->Subject = $subject;
         $mail->msgHTML($message);
         $mail->Send();
-
-        if (!$mail->send()) {
-            echo 'Mailer Error: ' . $mail->ErrorInfo; // Error handling
-        } else {
-            echo 'Message sent!';
-        }
     }
 
 
