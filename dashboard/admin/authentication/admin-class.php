@@ -188,7 +188,7 @@ class ADMIN
                     }
 
                     .logo {
-                        display: block;
+                        display: block; 
                         text-align: center;
                         margin-bottom: 30px;
                     }
@@ -200,7 +200,7 @@ class ADMIN
                         <img src='cid:logo' alt='logo' width='150'>
                     </div>
                     <h1>Welcome</h1>
-                    <p>Hello, <strong>$email</strong></strong></p>
+                    <p>Hello, <strong>$email</strong></p>
                     <p>Welcome to Alessandra System</p>
                     <p>If you did not sign up for an account, you can safely ignore this email.</p>
                     <p>Thank you!</p>
